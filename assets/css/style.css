@@ -1,0 +1,18 @@
+
+body {
+	background-image: url("../images/skies.png");
+}
+
+h1 {
+	font-family: 'Shojumaru', cursive, Arial,;
+}
+
+#crystals {
+	width: 100%;
+	height: auto;
+}
+
+.container {
+	width: 200px;
+	height: 120px;
+}
