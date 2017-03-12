@@ -4,15 +4,27 @@ body {
 }
 
 h1 {
-	font-family: 'Shojumaru', cursive, Arial,;
+	font-style: italic;
 }
 
-#crystals {
-	width: 100%;
-	height: auto;
+span {
+	font-family: 'Lato', cursive, Arial;
 }
 
-.container {
+.crystalImage {
 	width: 200px;
-	height: 120px;
+	height: auto;
+	margin: 25px;
+	opacity: 0.8;
+}
+
+.crystalImage:hover {
+ 	cursor:pointer;
+ 	opacity: 1;
+}
+
+p {
+	font-size: 16px;
+	line-height: 30px;
+	font-family: 'Shojumaru', cursive, Arial;
 }

@@ -55,7 +55,7 @@ $(document).ready(function() {
 		    $('#yourScore').text(counter);
 
 		    if (counter == numberToGuess){
-		      $('#status').text('You won!!!!');
+		      $('#status').text('You won!');
 		      wins ++;
 		      $('#win').text(wins);
 		      console.log(wins)
