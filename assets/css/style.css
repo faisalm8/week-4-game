@@ -3,6 +3,10 @@ body {
 	background-image: url("../images/skies.png");
 }
 
+#audio {
+	display: hidden;
+}
+
 h1 {
 	font-style: italic;
 }

@@ -1,5 +1,20 @@
 $(document).ready(function() {
 
+	var audio = $('<audio />', {
+		autoPlay: 'autoplay',
+		controls: 'controls'
+	});
+
+		addSource(audio, 'assets/audios/bensound-relaxing.mp3');
+
+		$(document).on('pageload', function() {
+			audio.appendTo('body');
+		})
+
+		function addSource(elem, path) {
+			$('<source />').attr('src', path).appendTo(elem);
+		};
+
 	crystals = ['assets/images/air.png','assets/images/fire.png','assets/images/water.png','assets/images/earth.png'];
 
 	var counter = 0;
